@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script Validaciones</title>
+</head>
+<body>
+	<form action="#" method="post">
+		validacion 1:
+		<br>
+		<input type="text" name="nombre" required/>
+
+		validacion 2:
+		<br>
+		<input type="text" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required/>
+
+		validacion 3:
+		<br>
+		<input type="email" name="email" required/>
+
+		
+		validacion 4:
+		<br>
+		<input type="text" name="texto" placeholder="Debes introducir un texto menor a 50 caracteres"  maxlength="50"  required/>
+
+		validacion 5:
+		<br>
+		<input type="file" name="texto" required/>
+
+		<br>
+		<input type="submit" />
+	</form>
+	
+</body>
+</html>
